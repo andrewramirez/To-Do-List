@@ -11,6 +11,7 @@ body{
     margin-right: 400px;
     margin-top: 50px;
     justify-content: center;
+    font-family: 'Open Sans', sans-serif;
 
 }
 h1{
@@ -23,8 +24,19 @@ h2{
     font-size: 20px;
     margin-top: 10px;
 }
+
+h4{
+    margin-top: 0;
+}
 .filter{
-    display: flex;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+
+.filter input{
+    width: 100%;
+    font-size: 16px;
 }
 
 
@@ -46,13 +58,51 @@ input{
     padding: 15px;
     color: white;
     font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
     
 
 }
 
+.welcomePage{
+    padding-top: 100px;
+}
+
+.welcome{
+    background-color: white;
+    height: 150px;
+    width: 50%;
+    padding: 15px;
+    color: black;
+    font-size: 16px;
+    margin:auto;
+    font-family: 'Open Sans', sans-serif;
+
+    
+}
+
+.enter{
+    float: right;
+    text-decoration: none;
+    font-size: 16px;
+    color: pink;
+}
+
+.goBack{
+    float: left;
+    text-decoration: none;
+    font-size: 16px;
+    color: pink;
+}
+
 .icons{
     float: right;
-    padding-right: 50px;
+    
+}
+
+.list{
+    padding: 5px;
+    font-family: 'Open Sans', sans-serif;
+    width: 90%;
 }
 
 .list:hover{
@@ -63,6 +113,9 @@ input{
 
 }
 
-/* .list{
-    margin-right: 40px;
-} */
+i.material-icons{
+    bottom:-3px;
+    position: relative;
+    font-size: 18px;
+
+}

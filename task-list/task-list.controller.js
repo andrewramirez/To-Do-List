@@ -6,6 +6,7 @@
 
             $ctrl.delete=function(index){
                 $ctrl.toDoList.splice(index,1);
+                DataFactory.setData($ctrl.toDoList);
             }
         
         });
